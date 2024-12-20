@@ -68,7 +68,7 @@ header .logo-container img {
   justify-content: space-between;
   color: white;
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url("/images/cover.jpg");
+    url("images/cover.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -162,7 +162,7 @@ header .logo-container img {
 
 .block-1 {
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url("/images/card-lot-01.jpg");
+    url("images/card-lot-01.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -170,7 +170,7 @@ header .logo-container img {
 
 .block-2 {
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url("/images/card-lot-02.jpg");
+    url("images/card-lot-02.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -178,7 +178,7 @@ header .logo-container img {
 
 .block-3 {
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url("/images/card-lot-03.jpg");
+    url("images/card-lot-03.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
