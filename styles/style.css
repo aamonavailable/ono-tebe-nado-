@@ -29,11 +29,11 @@ header {
   gap: 37px;
 }
 
-header:first-child>div {
+header:first-child>a {
   margin-right: auto;
 }
 
-header:last-child>div {
+header:last-child>a {
   margin-left: auto;
 }
 
@@ -68,7 +68,7 @@ header .logo-container img {
   justify-content: space-between;
   color: white;
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url("images/cover.jpg");
+    url("/images/cover.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
