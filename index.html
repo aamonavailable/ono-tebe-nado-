@@ -2,26 +2,26 @@
 <html lang="ru">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Оно тебе надо — аукцион вещей, в которые никто не верил</title>
-  <link rel="stylesheet" href="fonts/fonts.css" />
-  <link rel="stylesheet" href="styles/global.css" />
-  <link rel="stylesheet" href="styles/style.css" />
+  <link rel="stylesheet" href="fonts/fonts.css"/>
+  <link rel="stylesheet" href="styles/global.css"/>
+  <link rel="stylesheet" href="styles/style.css"/>
 </head>
 
 <body>
   <header>
-    <nav>
-      <ul>
-        <li>главная</li>
-        <li><a href="#">посмотреть лоты</a></li>
-        <li><a href="#">об аукционе</a></li>
+    <nav class="header__menu" >
+      <ul class="header__links-list">
+        <li class="header__links-list-item"><a class="header__links-list-item_no-bullit" href="head">главная</a></li>
+        <li class="header__links-list-item"><a href="articles">посмотреть лоты</a></li>
+        <li class="header__links-list-item"><a href="about">об аукционе</a></li>
       </ul>
     </nav>
-    <a href="#" class="logo-container">
-      <img src="images/logo-black.svg" alt="">
+    <a href="сайты" class="header__logo">
+      <img src="images/logo-black.svg" alt="черный логотип сайта">
     </a>
     <address>
       <a href="tel:+99995555555">+9 999 555 5555</a>
@@ -32,48 +32,48 @@
 
   <main>
     <section class="cover">
-      <div class="overlay-h2">
+      <div class="cover__title">
         <h2 class="first-word">ОНО</h2>
         <h2 class="second-word">ТЕБЕ</h2>
         <h2 class="third-word">НАДО</h2>
       </div>
       <div class="description">
-        <div class="subline">АУКЦИОН ВЕЩЕЙ, В КОТОРЫЕ НИКТО НЕ ВЕРИЛ</div>
+        <div class="description-text">АУКЦИОН ВЕЩЕЙ, В КОТОРЫЕ НИКТО НЕ ВЕРИЛ</div>
         <button>СДЕЛАТЬ СТАВКУ</button>
       </div>
     </section>
 
     <section class="lots">
-      <h2 class="lots-h2">ЛОТЫ</h2>
+      <h2 class="lots-h">ЛОТЫ</h2>
       <div class="blocks">
-        <div class="block-1">
-          <a href="#" class="a-of-block">Фильм режиссёра, который бросил киношколу</a>
+        <article class="block-1">
+          <a href="первый-лот" class="a-of-block">Фильм режиссёра, который бросил киношколу</a>
           <p class="p-of-block">Не просто бросил, а ушёл с первой лекции. Какой была бы ваша ставка, если бы вы не
             знали, что режиссёр — Пол Томас Андерсон?</p>
-        </div>
-        <div class="block-2">
-          <a href="#" class="a-of-block">Книга, где описан один скучный день из жизни рекламного агента</a>
+        </article>
+        <article class="block-2">
+          <a href="второй-лот" class="a-of-block">Книга, где описан один скучный день из жизни рекламного агента</a>
           <p class="p-of-block">Объёмом почти в тысячу страниц. Иногда без знаков препинания и с переходами на
             древнеанглийский. В ней одновременно рассказывается о 16 июня 1904 года и об истории литературы, начиная с
             античных времён. И это всё накладывается на эпическую поэму Гомера. Сколько бы вы поставили на «Улисса»
             Джеймса Джойса?</p>
-        </div>
-        <div class="block-3">
-          <a href="#" class="a-of-block">Картина, которую повторит даже 5-летний сын маминой подруги</a>
+        </article>
+        <article class="block-3">
+          <a href="третий-лот" class="a-of-block">Картина, которую повторит даже 5-летний сын маминой подруги</a>
           <p class="p-of-block">Ну действительно, там линия, тут кружочек, а здесь и вовсе что-то похожее на
             инфузорию-туфельку. Никаких полей, лесов, котиков... Сколько бы вы на такое поставили, если бы не знали, что
             это — одна из революционных работ Кандинского?</p>
-        </div>
+        </article>
       </div>
-      <a href="#" class="a-view-more">посмотреть больше</a>
+      <a href="посмотреть-больше" class="lots__look-more-link">посмотреть больше</a>
     </section>
 
     <section class="about">
-      <div class="jopa">
-        <img src="images/logo-white.svg" alt="">
+      <div class="about__logo">
+        <img src="images/logo-white.svg" alt="белый логотип сайта">
       </div>
-      <div class="asd">
-        <h5 class="about-h5">ОБ АУКЦИОНЕ</h5>
+      <div class="about__column">
+        <h5 class="about-title">ОБ АУКЦИОНЕ</h5>
         <p>Здесь вы не встретите очередное пафосное собрание невероятно дорогого антиквариата. Наши лоты вообще не должны были попасть ни на один аукцион. Потому что кому нужен дневник девочки-подростка или картина, которую может нарисовать даже ребёнок? Кому нужны все эти странные вещи, созданные любителями?</p>
         <p>Слишком сложные или, наоборот, слишком простые. Опережающие своё время. В пух и прах растерзанные критиками.
           Непринятые и непонятые. Когда-то они казались просто неудачными. Но, несмотря на критику, кажущуюся простоту
@@ -85,26 +85,26 @@
 
   <footer>
     <address>
-      <a href="#">+9 999 555 5555</a>
-      <a href="#">info@sobaka.ge</a>
+      <a href="tel:+99995555555">+9 999 555 5555</a>
+      <a href="mailto:info@sobaka.ge">info@sobaka.ge</a>
       <div>наб. Принсенграхт 263- 265, Амстердам</div>
     </address>
     <nav>
       <ul>
         <li>главная</li>
-        <li><a href="#">посмотреть лоты</a></li>
-        <li><a href="#">об аукционе</a></li>
+        <li><a href="articles">посмотреть лоты</a></li>
+        <li><a href="about">об аукционе</a></li>
       </ul>
     </nav>
     <div class="social-media">
-      <a href="#" class="social-icon youtube">
-        <img src="images/yt.svg" alt="">
+      <a href="https://www.youtube.com/" class="social-icon youtube">
+        <img src="images/yt.svg" alt="ссылка на ютуб">
       </a>
-      <a href="#" class="social-icon vkontakte">
-        <img src="images/vk.svg" alt="">
+      <a href="https://vk.com/" class="social-icon vkontakte">
+        <img src="images/vk.svg" alt="ссылка на вконтакте">
       </a>
-      <a href="#" class="social-icon pinterest">
-        <img src="images/pinterest.svg" alt="">
+      <a href="https://ru.pinterest.com/" class="social-icon pinterest">
+        <img src="images/pinterest.svg" alt="ссылка на пинтерест">
       </a>
     </div>
   </footer>

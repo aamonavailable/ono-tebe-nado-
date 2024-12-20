@@ -50,17 +50,21 @@ header nav ul li:first-child {
   list-style: none;
 }
 
-header .logo-container {
+.header__links-list-item_no-bullit {
+  text-decoration: none;
+}
+
+header .header__logo {
   height: 105px;
   width: 148px;
 }
 
-header .logo-container img {
+header .header__logo img {
   height: 100%;
 }
 
 .cover {
-  width: 1100px;
+  width: 100%;
   height: 757px;
   padding: 165px 50px 50px;
   display: flex;
@@ -74,28 +78,28 @@ header .logo-container img {
   background-size: cover;
 }
 
-.cover .overlay-h2 {
+.cover .cover__title {
   font-weight: bold;
   text-transform: uppercase;
   letter-spacing: 30px;
 }
 
-.cover .overlay-h2>h2 {
+.cover .cover__title>h2 {
   padding-bottom: 28px;
 }
 
-.cover .overlay-h2>h2:last-child {
+.cover .cover__title>h2:last-child {
   padding-top: 9px;
 }
 
-.cover .overlay-h2 .first-word {
+.cover .cover__title .first-word {
   font-weight: 700px;
   font-size: 100px;
   line-height: 115px;
   text-align: left;
 }
 
-.cover .overlay-h2 .second-word {
+.cover .cover__title .second-word {
   font-weight: 700px;
   font-size: 100px;
   line-height: 100px;
@@ -103,7 +107,7 @@ header .logo-container img {
   margin-right: -0.3em;
 }
 
-.cover .overlay-h2 .third-word {
+.cover .cover__title .third-word {
   font-weight: 700px;
   font-size: 100px;
   line-height: 100px;
@@ -118,7 +122,7 @@ header .logo-container img {
   font-size: 22px;
 }
 
-.cover .description .subline {
+.cover .description .description-text {
   line-height: 28px;
   word-spacing: 0.85em;
   font-weight: 400;
@@ -150,7 +154,7 @@ header .logo-container img {
   margin: 25px 0px;
 }
 
-.blocks div {
+.blocks article {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -195,12 +199,12 @@ header .logo-container img {
   font-size: 20px;
 }
 
-.lots h2 {
+.lots-h {
   font-size: 40px;
   padding-left: 40px;
 }
 
-.a-view-more {
+.lots__look-more-link {
   font-size: 20px;
   padding-left: 40px;
   padding-top: 5px;
@@ -214,7 +218,7 @@ header .logo-container img {
   justify-content: space-between;
 }
 
-.jopa {
+.about__logo {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -227,12 +231,12 @@ header .logo-container img {
   margin-left: 47px;
 }
 
-.jopa img {
+.about__logo img {
   width: 148px;
   height: 114px;
 }
 
-.asd {
+.about__column {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -240,7 +244,7 @@ header .logo-container img {
   gap: 26px;
 }
 
-.about h5 {
+.about-title {
   font-size: 40px;
   padding-bottom: 75px;
 }
@@ -262,7 +266,6 @@ footer {
 
 footer address {
   line-height: 25px;
-  height: 98px;
   width: 265px;
 }
 
